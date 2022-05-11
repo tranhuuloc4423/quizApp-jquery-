@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../js/inputExam.js"></script>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="box__container">
+        <div class="box">
+            <label for="dethi">Tên đề thi :</label>
+            <input type="text" id="dethi" name="dethi">
+            <button id="add">Thêm câu hỏi</button>
+            <button><a href="../index.html">Trang chủ</a></button>
+        </div>
+        <div id="box__questions">
+            <div class="question" id="form-0">
+                <label for="cauhoi">Câu hỏi :</label>
+                <input type="text" id="cauhoi-0" name="cauhoi" class="cauhoi">
+                <br>
+                <label for="phuongan">Phương án :</label>
+                <div class="box__answers">
+                    <div class="box__answers-item">
+                        <label for="a">A</label>
+                        <input type="text" class="answers" class="a">
+                        <input type="radio" name="dapan-0" value="a">
+                    </div>
+                    <div class="box__answers-item">
+                        <label for="b">B</label>
+                        <input type="text" class="answers">
+                        <input type="radio" name="dapan-0" value="b">
+                    </div>
+                    <div class="box__answers-item">
+                        <label for="c">C</label>
+                        <input type="text" class="answers">
+                        <input type="radio" name="dapan-0" value="c">
+                    </div>
+                    <div class="box__answers-item">
+                        <label for="d">D</label>
+                        <input type="text" class="answers">
+                        <input type="radio" name="dapan-0" value="d">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button id="save">Lưu</button>
+    </div>
+    
+</body>
+</html>
